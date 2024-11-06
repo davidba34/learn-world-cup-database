@@ -8,3 +8,29 @@ else
 fi
 
 # Do not change code above this line. Use the PSQL variable above to query your database.
+
+$PSQL "INSERT INTO teams (name) VALUES 
+('Brazil'),
+('Germany'),
+('Argentina'),
+('France'),
+('Italy'),
+('Spain'),
+('Netherlands'),
+('Portugal'),
+('England'),
+('Belgium'),
+('Croatia'),
+('Uruguay'),
+('Colombia'),
+('Mexico'),
+('Chile'),
+('Sweden'),
+('Denmark'),
+('Russia'),
+('Poland'),
+('Japan'),
+('South Korea'),
+('Senegal'),
+('Tunisia'),
+('Iran');"
